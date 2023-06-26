@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Leer archivo CSV</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Contenido del archivo CSV:</h1>
+    <table id="csvTable">
+      <thead>
+        <tr></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div id="invalidDataContainer" style="display: none">
+      <h2>Datos no válidos:</h2>
+      <table id="invalidData">
+        <thead>
+          <tr></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <input type="file" id="csvFile" accept=".csv" />
+  </body>
+</html>
