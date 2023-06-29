@@ -1,0 +1,39 @@
+body {
+  font-family: 'EB Garamond', serif;
+  background-color: #fdfdfd;
+  text-align: center;
+  margin: 0;
+}
+
+header{
+  padding: 6px;
+  background-color:#def6f8;
+}
+
+table {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 6px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+  border-bottom: 1px solid #161515;
+}
+
+thead {
+  background-color:#def6f8;
+}
+
+input[type="file"] {
+  font-family: 'Quicksand', sans-serif;
+  display: block;
+  margin: 20px auto;
+}
+
+.invalid {
+  background-color: #ffcccc;
+}
